@@ -235,8 +235,8 @@ h3{
 }
 .contato, .local, .e-mail, .phone{
     text-align: left;
-}
-.clock{
+}s
+.clock {
     font-size: 10px;
     color: #beb3b3;
     padding: 5px;
@@ -254,7 +254,7 @@ h3{
     float: left;
     text-align: left;
 }
-.clock:before{
+.clock:before {
     background-image: url(../img/clock.png);
 }
 .local:before {
