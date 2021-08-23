@@ -221,7 +221,7 @@ h3{
 .footer{
     background-image: url(../img/R.png);
 }
-.local:before, .e-mail:before, .phone:before {
+.local:before, .e-mail:before, .phone:before, .clock:before {
     content: '';
     width:  17px;
     height: 24px;
@@ -235,6 +235,27 @@ h3{
 }
 .contato, .local, .e-mail, .phone{
     text-align: left;
+}
+.clock{
+    font-size: 10px;
+    color: #beb3b3;
+    padding: 5px;
+    margin: -5px;
+}
+.rel p{
+    float: left;
+    text-align: left;
+}
+.Tags p{
+    float: left;
+    text-align: left;
+}
+.us p{
+    float: left;
+    text-align: left;
+}
+.clock:before{
+    background-image: url(../img/clock.png);
 }
 .local:before {
     background-image: url(../img/local.png);
